@@ -533,9 +533,6 @@ input {
 		display: block;
 	}
 
-	.article__buttons .play-button {
-		font-size: 0;
-	}
 	.page,
 	.subscription-block {
 		padding-left: 24px;
