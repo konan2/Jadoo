@@ -199,6 +199,7 @@ body {
 	flex-wrap: wrap-reverse;
 	align-items: center;
 	justify-content: flex-end;
+    padding: 8px 0;
 }
 
 .header-buttons {
@@ -543,16 +544,11 @@ input {
 	.subscription-block__form .text-field {
 		min-width: 100%;
 	}
-    .header-controls__button{
-        margin-top: 4px;
-        margin-bottom: 4px;
-    }
+    
     .header-controls__button,
-    .article__buttons .play-button{
-        margin-left: 24px;
-    }
+    .article__buttons .play-button,
     .responsive-menu-btn{
-        margin-left: 16px;
+        margin-left: 24px;
     }
     .article__img{
         display: none;
