@@ -414,12 +414,6 @@ input {
 }
 
 
-.subscription-block__form {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
 .subscription-block__title {
 	font-weight: 700;
 	font-size: 33px;
@@ -428,8 +422,13 @@ input {
 	text-align: center;
 }
 
-.subscription-block__form .text-field {
+.subscription-form {
+	justify-content: center;
+}
+
+.subscription-form .text-field {
 	min-width: 375px;
+    width: 100%;
 }
 
 
@@ -471,10 +470,6 @@ input {
 .col {
 	display: flex;
 	margin: 12px;
-}
-
-.col .text-field {
-	width: 100%;
 }
 
 .flex-grow {
@@ -532,7 +527,7 @@ input {
 		box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px;
 	}
 
-	.nav-menu.responsive a {
+	.nav-menu.responsive .nav-menu__item {
 		display: block;
 	}
 
@@ -541,7 +536,7 @@ input {
 		padding-left: 24px;
 		padding-right: 24px;
 	}
-	.subscription-block__form .text-field {
+	.col .text-field {
 		min-width: 100%;
 	}
     
@@ -558,15 +553,3 @@ input {
     }
     
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
