@@ -246,11 +246,13 @@ input {
 	font-size: 16px;
 	border-radius: 10px;
 	border: none;
+    min-width: 40px;
 	padding: 0 16px;
 	color: #39425D;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
+    justify-content: center;
 	min-height: 40px;
 	white-space: nowrap;
 	font-family: "Poppins", sans-serif;
@@ -261,7 +263,7 @@ input {
 	padding: 0;
 }
 
-.dropdown-button .icon{
+.dropdown-button__text + .icon{
     margin-left: 4px;
 }
 
