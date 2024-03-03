@@ -434,7 +434,6 @@ input {
 
 .text-field-container {
 	position: relative;
-	margin: 12px;
 }
 
 .text-field-container .icon {
@@ -475,7 +474,7 @@ input {
 	width: 100%;
 }
 
-.grow {
+.flex-grow {
 	flex-grow: 1;
 }
 
@@ -537,18 +536,21 @@ input {
 	.article__buttons .play-button {
 		font-size: 0;
 	}
-
 	.page,
 	.subscription-block {
 		padding-left: 32px;
 		padding-right: 32px;
 	}
-    .page{
-        overflow: hidden;
-    }
 	.subscription-block__form .text-field {
 		min-width: 100%;
 	}
+    .header-controls__button{
+        margin-left: 24px;
+    }
+    .article__img{
+        right: 0;
+    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
