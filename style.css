@@ -135,47 +135,6 @@ table {
 	        box-sizing: border-box;
 }
 
-/* Fonts */
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('fonts/Poppins-Bold.eot');
-    src: url('fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Poppins-Bold.woff2') format('woff2'),
-        url('fonts/Poppins-Bold.woff') format('woff'),
-        url('fonts/Poppins-Bold.ttf') format('truetype'),
-        url('fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Volkhov';
-    src: url('fonts/Volkhov-Bold.eot');
-    src: url('fonts/Volkhov-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Volkhov-Bold.woff2') format('woff2'),
-        url('fonts/Volkhov-Bold.woff') format('woff'),
-        url('fonts/Volkhov-Bold.ttf') format('truetype'),
-        url('fonts/Volkhov-Bold.svg#Volkhov-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('fonts/Poppins-Medium.eot');
-    src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Poppins-Medium.woff2') format('woff2'),
-        url('fonts/Poppins-Medium.woff') format('woff'),
-        url('fonts/Poppins-Medium.ttf') format('truetype'),
-        url('fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
 /* Styles */
 
 body {
@@ -185,7 +144,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	color: #5E6282;
-	background: url("img/shape_decor.svg") right top no-repeat;
+	background: url('img/shape_decor.svg') right top no-repeat;
 	min-width: 360px;
     width: 100%;
 }
@@ -447,7 +406,7 @@ input {
 	bottom: 11px;
 	left: -36px;
 	right: -48px;
-	background: url("img/underline.svg") bottom no-repeat;
+	background: url('img/underline.svg') bottom no-repeat;
 	background-size: contain;
 	height: 12px;
 }
