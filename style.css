@@ -319,7 +319,7 @@ input {
 /* Content */
 
 .article {
-	padding: 125px 0;
+	padding: 6.5vw 0;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -337,7 +337,7 @@ input {
 	font-family: "Volkhov", serif;
 	font-weight: 700;
 	font-size: 84px;
-	line-height: 89px;
+	line-height: 1.06;
 	margin: 24px 0;
 	color: #181E4B;
 	max-width: 600px;
@@ -538,8 +538,8 @@ input {
 	}
 	.page,
 	.subscription-block {
-		padding-left: 32px;
-		padding-right: 32px;
+		padding-left: 24px;
+		padding-right: 24px;
 	}
 	.subscription-block__form .text-field {
 		min-width: 100%;
@@ -547,8 +547,11 @@ input {
     .header-controls__button{
         margin-left: 24px;
     }
+    .responsive-menu-btn{
+        margin-left: 16px;
+    }
     .article__img{
-        right: 0;
+        display: none;
     }
     
 }
