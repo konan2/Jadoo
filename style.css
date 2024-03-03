@@ -146,10 +146,8 @@ body {
 	color: #5E6282;
 	background: url(img/shape_decor.svg) right top no-repeat;
 	min-width: 360px;
+    width: 100%;
 }
-
-html, body {width:100%; overflow-x:hidden}
-
 .page {
 	max-width: 1440px;
 	margin: 0 auto;
