@@ -404,7 +404,7 @@ input {
 	width: 70px;
 	height: 70px;
 	position: absolute;
-	right: -1.7vw;
+	right: -32px;
 	top: -24px;
 	border-radius: 100%;
 	background: linear-gradient(202deg, #747DEF 10.27%, #5E3BE1 100%);
@@ -552,6 +552,9 @@ input {
     }
     .article__img{
         display: none;
+    }
+    .subscription-block:before{
+        right: -16px;
     }
     
 }
