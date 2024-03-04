@@ -154,6 +154,7 @@ body {
 	background: url('img/shape_decor.svg') right top no-repeat;
 	min-width: 360px;
     width: 100%;
+    overflow-x: hidden;
 }
 .page {
 	max-width: 1440px;
