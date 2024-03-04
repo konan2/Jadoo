@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -184,46 +191,6 @@ body {
 	left: -425px;
 	border-radius: 100%;
 }
-
-
-/* Grid */
-
-.row {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-}
-
-.col {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	margin: 12px;
-}
-
-.flex-grow {
-	-webkit-box-flex: 1;
-	    -ms-flex-positive: 1;
-	        flex-grow: 1;
-}
-
-.justify-center {
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-}
-
-.justify-end {
-	-webkit-box-pack: end;
-	    -ms-flex-pack: end;
-	        justify-content: flex-end;
-}
-
 
 /* Input */
 
@@ -511,6 +478,16 @@ input {
 }
 
 
+.subscription-form__elem{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 12px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
 .subscription-block__title {
 	font-weight: 700;
 	font-size: 33px;
@@ -520,6 +497,11 @@ input {
 }
 
 .subscription-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
@@ -635,7 +617,7 @@ input {
         margin-left: 24px;
     }
 
-	.col .text-field {
+	.subscription-form .text-field {
 		min-width: 100%;
 	}
 
@@ -655,4 +637,3 @@ input {
         display: none;
     }
 }
-
