@@ -153,8 +153,6 @@ body {
 	color: #5E6282;
 	background: url('img/shape_decor.svg') right top no-repeat;
 	min-width: 360px;
-    width: 100%;
-    overflow-x: hidden;
 }
 .page {
 	max-width: 1440px;
@@ -343,13 +341,8 @@ input {
 
 /* Logo */
 
-.logo {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+.logo img{
+	margin: 27px 0;
 }
 
 /* Header */
@@ -654,3 +647,12 @@ input {
     }
     
 }
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    .article__img {
+        display: none;
+    }
+}
+
