@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, noarchive">
@@ -8,40 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jadoo - BEST DESTINATIONS AROUND THE WORLD</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="page">
         <header class="section header">
             <a class="logo" href="#"><img src="img/logo.svg" width="113" height="34" alt="Logo text"></a>
            <div class="header-controls">
-              <nav id="myTopnav" class="header__menu nav-menu">
-                <a href="#" class="nav-menu__item">Destinations</a>
-                <a href="#" class="nav-menu__item">Hotels</a>
-                <a href="#" class="nav-menu__item">Flights</a>
-                <a href="#" class="nav-menu__item">Bookings</a>
-                <a href="#" class="nav-menu__item">Login</a>
-            </nav>
+              <div id="myTopnav" class="nav-menu">
+                <nav class="header-controls__item">
+                    <a href="#" class="nav-menu__item">Destinations</a>
+                    <a href="#" class="nav-menu__item">Hotels</a>
+                    <a href="#" class="nav-menu__item">Flights</a>
+                    <a href="#" class="nav-menu__item">Bookings</a>
+                    <a href="#" class="nav-menu__item">Login</a>
+                </nav>
+
+            <div class="header-controls__item">
+                <button class="button button-outlined header-controls__button nav-menu__item">Sign up</button>
+                <button class="button dropdown-button header-controls__button nav-menu__item"><span class="dropdown-button__text"> EN</span> <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.58154 5.75L8.00012 10.25L12.4187 5.75" stroke="#39425D"></path></svg>                                                </button></div>
+            </div>
            
-            <div class="header-buttons">
-                <button class="button button-outlined header-controls__button">Sign up</button>
-                <button class="button dropdown-button header-controls__button">
-                    <span class="dropdown-button__text"> EN</span> 
-                    <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.58154 5.75L8.00012 10.25L12.4187 5.75" stroke="#39425D"/>
-                    </svg>                                                
-                </button>
-                <button class="button dropdown-button responsive-menu-btn header-controls__button" onclick="toggleMenu()">
+  
+                
+                
+                <button class="button dropdown-button responsive-menu-btn" onclick="toggleMenu()">
                     <svg class="icon" width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-                    <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-                    <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
                     </svg>
                 </button>
-            </div> 
+     
         </div>
             
       
@@ -60,14 +59,14 @@
                 <button class="button button--primary">Find out more</button>
                 <button class="button play-button">
                     <svg class="icon" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 12.5L7 19.5L7 5.5L19 12.5Z" fill="white"/>
+                        <path d="M19 12.5L7 19.5L7 5.5L19 12.5Z" fill="white"></path>
                     </svg>
                     <span>Play Demo</span>
                 </button>
             </div>
-            <picture>
-                <source class="article__img" type="image/webp" srcset="img/front_img.webp" width="747" height="764" alt="Image">
-                <img class="article__img" src="img/front_img.png" width="747" height="764" alt="Image">
+            <picture class="article__img">
+                <source type="image/webp" srcset="img/front_img.webp" width="747" height="764" alt="Image">
+                <img src="img/front_img.png" width="747" height="764" alt="Image">
             </picture>
         </article>
        </main>
@@ -79,10 +78,10 @@
                 <form class="row subscription-form">
                     <div class="col flex-grow text-field-container">
                         <svg class="icon" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.57144 5.99963L10.9221 10.1673C11.2296 10.3691 11.6276 10.3691 11.935 10.1673L18.2857 5.99963" stroke="#5E6282" stroke-width="0.923077" stroke-linecap="round"/>
-                            <rect x="0.461538" y="0.461538" width="23.0769" height="17.0771" rx="4.15385" stroke="#5E6282" stroke-width="0.923077"/>
+                            <path d="M4.57144 5.99963L10.9221 10.1673C11.2296 10.3691 11.6276 10.3691 11.935 10.1673L18.2857 5.99963" stroke="#5E6282" stroke-width="0.923077" stroke-linecap="round"></path>
+                            <rect x="0.461538" y="0.461538" width="23.0769" height="17.0771" rx="4.15385" stroke="#5E6282" stroke-width="0.923077"></rect>
                         </svg>
-                        <input type="email" id="email" name="email" value="" placeholder="Your email" class="text-field"/>
+                        <input type="email" id="email" name="email" value="" placeholder="Your email" class="text-field">
                     </div>
                     <div class="col flex-grow justify-end">
                         <button type="submit" class="button button--tertiary subscription-block__submit">Subscribe</button>
@@ -105,5 +104,5 @@
          });
     }
     </script>
-</body>
-</html>
+
+</body></html>
